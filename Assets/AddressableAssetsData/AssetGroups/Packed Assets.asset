@@ -30,7 +30,7 @@ MonoBehaviour:
     - default
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f980b3c0f8583f74881c264b82eedb9f
-    m_Address: Chair
+    m_Address: Assets/Prefab/Chair.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

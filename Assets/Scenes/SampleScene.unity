@@ -235,7 +235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed9b268f62a699a4b8c920c8bc6744e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabKey: Assets/Prefab/Cube.prefab
+  prefabKey: Assets/Prefab/Chair.prefab
 --- !u!1 &162521484
 GameObject:
   m_ObjectHideFlags: 0
