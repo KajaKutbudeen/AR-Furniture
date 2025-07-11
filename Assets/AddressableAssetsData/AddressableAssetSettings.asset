@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 764059d66afc2544590349ec0ad634af
   m_currentHash:
     serializedVersion: 2
-    Hash: c38d91330fb40cc8fef6ce7656e4b3eb
+    Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -61,11 +61,11 @@ MonoBehaviour:
       - m_Id: 60f468422aa16994281022c7c6b7b95f
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 611c833d0138d984080aa564e2eabd3e
-        m_Value: https://cdn.jsdelivr.net/gh/Robrert3490/Sample@tree/main/ServerData/Android
+        m_Value: https://cdn.jsdelivr.net/gh/KajaKutbudeen/AR-Furniture@tree/main/ServerData/Android
       - m_Id: 6dfd58fdafa799e43a0e864411f2b7d9
         m_Value: '[ServerData]/[BuildTarget]'
       - m_Id: 79d88d60b4d718a4190a8e5dab457733
-        m_Value: https://cdn.jsdelivr.net/gh/Robrert3490/Sample@tree/main/ServerData/Android
+        m_Value: https://cdn.jsdelivr.net/gh/KajaKutbudeen/AR-Furniture@tree/main/ServerData/Android
       - m_Id: 7c017002090971d4288e5146f874e112
         m_Value: '[ServerData]/[BuildTarget]'
     - m_InheritedParent: 
