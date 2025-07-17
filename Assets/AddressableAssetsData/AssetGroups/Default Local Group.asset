@@ -20,12 +20,14 @@ MonoBehaviour:
   - m_GUID: 958c00223db011c41aa739ae0d74eb90
     m_Address: Assets/Prefab/Chair/3SM_wood.mat
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bef5d2c3dab58f0459040fe3470007a3
     m_Address: Assets/Prefab/Chair/3SM_fabric_1.mat
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 01718d570a2580d4bae34e45ba12421b, type: 2}
