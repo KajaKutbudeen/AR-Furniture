@@ -40,12 +40,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f980b3c0f8583f74881c264b82eedb9f
-    m_Address: Assets/Prefab/Chair.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - default
-    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: e461be71b12482f4294baebd101316ac, type: 2}
   m_SchemaSet:

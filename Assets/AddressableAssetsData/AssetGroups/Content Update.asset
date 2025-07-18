@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Content Update
+  m_EditorClassIdentifier: 
+  m_GroupName: Content Update
+  m_GUID: ec02aa29ba456054a94aac5512b41c4f
+  m_SerializeEntries:
+  - m_GUID: f980b3c0f8583f74881c264b82eedb9f
+    m_Address: Assets/Prefab/Chair.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e461be71b12482f4294baebd101316ac, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2a8d4070fbf91834c8cc4dd8718f19d0, type: 2}
+    - {fileID: 11400000, guid: aa44ca1527ef62e4192f7aea3a340610, type: 2}
