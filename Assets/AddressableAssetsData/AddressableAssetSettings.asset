@@ -15,12 +15,12 @@ MonoBehaviour:
   m_DefaultGroup: 5b4d7491f024bd94c9b423184d1180c1
   m_currentHash:
     serializedVersion: 2
-    Hash: 8470e21bc3cf29d94648fb905ed0f46b
+    Hash: 512e0e17e7ac81d3b2d1f8d485d92b3a
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
-  m_InternalIdNamingMode: 0
+  m_InternalIdNamingMode: 1
   m_InternalBundleIdMode: 1
   m_AssetLoadMode: 0
   m_BundledAssetProviderType:
@@ -53,7 +53,7 @@ MonoBehaviour:
     m_Id: a8f8afa4c6a67ae40b3ea532947c7114
   m_RemoteCatalogLoadPath:
     m_Id: c4c7b1eeaa7ca384cb40340a3c8491e8
-  m_ContentStateBuildPathProfileVariableName: <default settings path>
+  m_ContentStateBuildPathProfileVariableName: Remote.BuildPath
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
@@ -77,7 +77,7 @@ MonoBehaviour:
       - m_Id: c4c7b1eeaa7ca384cb40340a3c8491e8
         m_Value: https://cdn.jsdelivr.net/gh/KajaKutbudeen/AR-Furniture@main/ServerData/Android
       - m_Id: c98a0e618e35e7746bf49eaf0dbda5f3
-        m_Value: 'https://cdn.jsdelivr.net/gh/KajaKutbudeen/AR-Furniture@main/ServerData/Android '
+        m_Value: https://cdn.jsdelivr.net/gh/KajaKutbudeen/AR-Furniture@main/ServerData/Android
       - m_Id: f2d2032220df8d54287c3dd3d056a81f
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
     m_ProfileEntryNames:
