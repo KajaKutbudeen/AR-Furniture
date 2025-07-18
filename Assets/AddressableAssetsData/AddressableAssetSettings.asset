@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: 5b4d7491f024bd94c9b423184d1180c1
+  m_DefaultGroup: 73bb07830f808cd4aa66f824085617eb
   m_currentHash:
     serializedVersion: 2
-    Hash: 512e0e17e7ac81d3b2d1f8d485d92b3a
+    Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_CatalogRequestsTimeout: 0
@@ -50,16 +50,16 @@ MonoBehaviour:
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: a8f8afa4c6a67ae40b3ea532947c7114
+    m_Id: c8cfc1db2ce33024eb894dbd249c0b57
   m_RemoteCatalogLoadPath:
-    m_Id: c4c7b1eeaa7ca384cb40340a3c8491e8
-  m_ContentStateBuildPathProfileVariableName: Remote.BuildPath
+    m_Id: 7a4b283427d5ce24d93bb292cb2082ac
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
   m_GroupAssets:
-  - {fileID: 11400000, guid: 7cdf725bedebff44caca4bec6498c520, type: 2}
+  - {fileID: 11400000, guid: c596e59f77e486f4e820432e895cbbe4, type: 2}
   - {fileID: 11400000, guid: 17d219f53f4add049beb4148fab6faf0, type: 2}
   m_BuildSettings:
     m_LogResourceManagerExceptions: 1
@@ -67,34 +67,34 @@ MonoBehaviour:
   m_ProfileSettings:
     m_Profiles:
     - m_InheritedParent: 
-      m_Id: 7a22e2c85d79a1a4799a893359462967
+      m_Id: 6e8c5416c28a93e43839e91b9999c017
       m_ProfileName: Default
       m_Values:
-      - m_Id: a45a84c6b60362a4499ac0e0ca659050
-        m_Value: 'ServerData/[BuildTarget]'
-      - m_Id: a8f8afa4c6a67ae40b3ea532947c7114
-        m_Value: 'ServerData/[BuildTarget]'
-      - m_Id: c4c7b1eeaa7ca384cb40340a3c8491e8
-        m_Value: https://cdn.jsdelivr.net/gh/KajaKutbudeen/AR-Furniture@tree/main/ServerData/Android
-      - m_Id: c98a0e618e35e7746bf49eaf0dbda5f3
-        m_Value: https://cdn.jsdelivr.net/gh/KajaKutbudeen/AR-Furniture@tree/main/ServerData/Android
-      - m_Id: f2d2032220df8d54287c3dd3d056a81f
+      - m_Id: 0c6ff7ea24b96cd4bb0b667d30b7cd9f
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 198d95c6714b4534baa3eb9daa686eca
+        m_Value: https://cdn.jsdelivr.net/gh/KajaKutbudeen/AR-Furniture@main/ServerData/Android/
+      - m_Id: 7a4b283427d5ce24d93bb292cb2082ac
+        m_Value: https://cdn.jsdelivr.net/gh/KajaKutbudeen/AR-Furniture@main/ServerData/Android/
+      - m_Id: c8cfc1db2ce33024eb894dbd249c0b57
+        m_Value: 'ServerData/[BuildTarget]'
+      - m_Id: ce0d7d07e9ac9c34093803c25c97a050
+        m_Value: 'ServerData/[BuildTarget]'
     m_ProfileEntryNames:
-    - m_Id: a45a84c6b60362a4499ac0e0ca659050
-      m_Name: Local.BuildPath
+    - m_Id: 0c6ff7ea24b96cd4bb0b667d30b7cd9f
+      m_Name: BuildTarget
       m_InlineUsage: 0
-    - m_Id: a8f8afa4c6a67ae40b3ea532947c7114
-      m_Name: Remote.BuildPath
-      m_InlineUsage: 0
-    - m_Id: c4c7b1eeaa7ca384cb40340a3c8491e8
-      m_Name: Remote.LoadPath
-      m_InlineUsage: 0
-    - m_Id: c98a0e618e35e7746bf49eaf0dbda5f3
+    - m_Id: 198d95c6714b4534baa3eb9daa686eca
       m_Name: Local.LoadPath
       m_InlineUsage: 0
-    - m_Id: f2d2032220df8d54287c3dd3d056a81f
-      m_Name: BuildTarget
+    - m_Id: 7a4b283427d5ce24d93bb292cb2082ac
+      m_Name: Remote.LoadPath
+      m_InlineUsage: 0
+    - m_Id: c8cfc1db2ce33024eb894dbd249c0b57
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: ce0d7d07e9ac9c34093803c25c97a050
+      m_Name: Local.BuildPath
       m_InlineUsage: 0
     m_ProfileVersion: 1
   m_LabelTable:
@@ -112,4 +112,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fdde93002a1a30e438ff7ea3fb795515, type: 2}
   - {fileID: 11400000, guid: 2d9eea88fe861784d9f714c66f158f77, type: 2}
   - {fileID: 11400000, guid: acee6130f99c6774ca3b3ef362dfa0fd, type: 2}
-  m_ActiveProfileId: 7a22e2c85d79a1a4799a893359462967
+  m_ActiveProfileId: 6e8c5416c28a93e43839e91b9999c017
