@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 5b4d7491f024bd94c9b423184d1180c1
   m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: 8470e21bc3cf29d94648fb905ed0f46b
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_CatalogRequestsTimeout: 0
@@ -80,20 +80,6 @@ MonoBehaviour:
         m_Value: 'https://cdn.jsdelivr.net/gh/KajaKutbudeen/AR-Furniture@main/ServerData/Android '
       - m_Id: f2d2032220df8d54287c3dd3d056a81f
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
-    - m_InheritedParent: 
-      m_Id: de300b03e56215447919f1b515801a49
-      m_ProfileName: Remote
-      m_Values:
-      - m_Id: a45a84c6b60362a4499ac0e0ca659050
-        m_Value: 'ServerData/[BuildTarget]'
-      - m_Id: a8f8afa4c6a67ae40b3ea532947c7114
-        m_Value: 'ServerData/[BuildTarget]'
-      - m_Id: c4c7b1eeaa7ca384cb40340a3c8491e8
-        m_Value: <undefined>
-      - m_Id: c98a0e618e35e7746bf49eaf0dbda5f3
-        m_Value: <undefined>
-      - m_Id: f2d2032220df8d54287c3dd3d056a81f
-        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
     m_ProfileEntryNames:
     - m_Id: a45a84c6b60362a4499ac0e0ca659050
       m_Name: Local.BuildPath
@@ -126,4 +112,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fdde93002a1a30e438ff7ea3fb795515, type: 2}
   - {fileID: 11400000, guid: 2d9eea88fe861784d9f714c66f158f77, type: 2}
   - {fileID: 11400000, guid: acee6130f99c6774ca3b3ef362dfa0fd, type: 2}
-  m_ActiveProfileId: de300b03e56215447919f1b515801a49
+  m_ActiveProfileId: 7a22e2c85d79a1a4799a893359462967
