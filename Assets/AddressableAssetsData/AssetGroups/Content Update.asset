@@ -18,7 +18,8 @@ MonoBehaviour:
   - m_GUID: 588f824ea5f820246b15c633091a9b9f
     m_Address: Red Chair
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f980b3c0f8583f74881c264b82eedb9f
     m_Address: Chair
