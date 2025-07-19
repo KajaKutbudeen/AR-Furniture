@@ -16,7 +16,7 @@ MonoBehaviour:
   m_GUID: ec02aa29ba456054a94aac5512b41c4f
   m_SerializeEntries:
   - m_GUID: f980b3c0f8583f74881c264b82eedb9f
-    m_Address: Assets/Prefab/Chair.prefab
+    m_Address: Chair
     m_ReadOnly: 0
     m_SerializedLabels:
     - default
