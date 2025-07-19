@@ -16,7 +16,7 @@ MonoBehaviour:
   m_GUID: ec02aa29ba456054a94aac5512b41c4f
   m_SerializeEntries:
   - m_GUID: 588f824ea5f820246b15c633091a9b9f
-    m_Address: Assets/Prefab/Red Chair.prefab
+    m_Address: Red Chair
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

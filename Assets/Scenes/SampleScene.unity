@@ -690,7 +690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed9b268f62a699a4b8c920c8bc6744e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabKey: Assets/Prefab/Red Chair.prefab
+  prefabKey: Red Chair
 --- !u!4 &1805637394
 Transform:
   m_ObjectHideFlags: 0
