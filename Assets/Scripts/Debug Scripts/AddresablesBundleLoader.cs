@@ -3,14 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.InputSystem;
 public class AddresablesBundleLoader : MonoBehaviour
 {
     public string prefabKey = "Cube";
+
+    
+
 
     void Start()
     {
         Addressables.InstantiateAsync(prefabKey).Completed += OnPrefabLoaded;
     }
+
+
+
+
 
     void OnPrefabLoaded(AsyncOperationHandle<GameObject> handle)
     {
