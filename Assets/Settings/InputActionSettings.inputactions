@@ -3,6 +3,124 @@
     "name": "InputActionSettings",
     "maps": [
         {
+            "name": "Mouse",
+            "id": "1b607682-ec4c-4354-a591-3fef4224cd89",
+            "actions": [
+                {
+                    "name": "Press",
+                    "type": "Button",
+                    "id": "3387f2b2-7455-442c-a322-1a61b6039acd",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "b73a6d61-342d-4ee4-abbd-b2a286694de9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7db148ba-0870-4379-98d2-3b02a1aebef1",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "b60820c9-6bd0-400e-b953-58e90b7ee652",
+                    "path": "OneModifier",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "31184123-5995-4383-b73e-e7b4a95da6bd",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "f5150f44-ccb4-46f7-9eba-d9f9b0c437bc",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Touch",
+            "id": "ff3d346b-61a5-4832-91e4-1c0b0485665a",
+            "actions": [
+                {
+                    "name": "TouchPressed",
+                    "type": "Button",
+                    "id": "1e705b35-2a95-4436-a593-8f5b370a59d6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TouchPosition",
+                    "type": "Value",
+                    "id": "6c719314-ed37-483d-ab0a-e8dae3afd301",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c7e6ddb9-366a-452b-a0d8-a0f522ce7611",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4cdcf1e-8db3-4e34-a343-8cf52143f96b",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
             "name": "Player",
             "id": "70d09a2f-001e-4df1-aa5c-544ec9d0428d",
             "actions": [
@@ -10,7 +128,7 @@
                     "name": "Move",
                     "type": "Value",
                     "id": "03affdbd-2013-4870-a676-3aaf78580a84",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -768,34 +886,6 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "Touch",
-            "id": "ff3d346b-61a5-4832-91e4-1c0b0485665a",
-            "actions": [
-                {
-                    "name": "TouchPressed",
-                    "type": "Button",
-                    "id": "1e705b35-2a95-4436-a593-8f5b370a59d6",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "c7e6ddb9-366a-452b-a0d8-a0f522ce7611",
-                    "path": "<Touchscreen>/Press",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "TouchPressed",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
